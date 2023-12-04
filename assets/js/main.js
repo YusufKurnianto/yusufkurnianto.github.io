@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   setTimeout(function () {
     document.body.classList.add("loaded");
-  }, 300); 
+  }, 1000); 
 });
 
 (function() {
