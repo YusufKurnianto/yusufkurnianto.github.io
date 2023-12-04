@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   setTimeout(function () {
     document.body.classList.add("loaded");
-  }, 5000); 
+  }, 500); 
 });
 
 (function() {
@@ -139,7 +139,7 @@ document.addEventListener("DOMContentLoaded", function () {
     speed: 400,
     loop: true,
     autoplay: {
-      delay: 5000,
+      delay: 500,
       disableOnInteraction: false
     },
     pagination: {
@@ -191,7 +191,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   window.addEventListener('load', () => {
     AOS.init({
-      duration: 5000,
+      duration: 500,
       easing: "ease-in-out",
       once: true,
       mirror: false
